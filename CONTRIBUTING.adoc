@@ -106,7 +106,7 @@ Run the command below with the number set to the total commits you wish to squas
 git rebase -i HEAD~3
 ```
 
-You default text editor will then open up and you will see the following::
+Your default text editor will then open up and you will see the following::
 
 ```
 pick eb36612 initial commit
@@ -124,7 +124,7 @@ squash 9ac8968 second commit
 squash a760569 final commit
 ```
 
-After this, should you wish to update your commit message to better summarise all of your pull request, run:
+After this, should you wish to update your commit message to better summarise all of your pull requests, run:
 
 ```
 git commit --amend
@@ -145,4 +145,4 @@ Documentation changes should be posted to link:https://github.com/jreleaser/jrel
 == Code of Conduct
 
 This project and everyone participating in it is governed by our link:CODE_OF_CONDUCT.md[Code of Conduct].
-By participating, you are expected to uphold this code. Please report unacceptable behavior to jreleaser@kordamp.org.
+By participating, you are expected to uphold this code. Please report unacceptable behaviour to jreleaser@kordamp.org.
